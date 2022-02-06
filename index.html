@@ -1,69 +1,113 @@
-﻿<html lang="pl">
+
+<!DOCTYPE html>
+<html lang="pl">
+
 <head>
-	<meta charset="utf-8"/>
-	<title>1F</title>
-	<meta name="description" content="Strona o mojej szkole"/>
-	<meta name="keywords" content="SLO, moja szkoła"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<style>	
-h1 {
-background-color:grey;
-}
-h1:hover {
-color:black;
-}
-#tekst {
-font-family:sans-serif;
-text-align:center;
-}
-#nagłówek{
-text-align:center;
-font-size:45px;
-}
-#y{
-font-family:fantasy;
-color:rgb(41,55,75);
-text-align:left;
-font-size:20px;
-}
-#z{
-color:green;
-font-size:20px;
-}
-#x {
-font-size:30px;
-}
-#s {
-font-size:25px;
-}
-</style>
+  <meta charset="utf-8"/>
+  <title>JS innerHTML</title>
+  
+  <script>
+  
+  function z1()
+  {
+    document.getElementById("z1").innerHTML="Jedna bogini dostała jabłko z koszykiem";
+  }
+  function z2()
+  {
+  document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedz";
+  }
+  
+  function z3()
+  {
+    document.getElementById("z3").innerHTML="Jutro";
+  }
+  function z4()
+  {
+  document.getElementById("z3").innerHTML="Tu znajdziesz odpowiedz";
+  }
+  
+  function z5()
+  {
+    document.getElementById("z5").innerHTML="Trzy";
+  }
+  function z6()
+  {
+  document.getElementById("z5").innerHTML="Tu znajdziesz odpowiedz";
+  }
+  
+  function z7()
+  {
+    document.getElementById("z7").innerHTML="Nie padało";
+  }
+  function z8()
+  {
+  document.getElementById("z7").innerHTML="Tu znajdziesz odpowiedz";
+  }
+  
+  function z9()
+  {
+    document.getElementById("z9").innerHTML="W słowniku";
+  }
+  function z10()
+  {
+  document.getElementById("z9").innerHTML="Tu znajdziesz odpowiedz";
+  }
+  
+  
+  </script>
 </head>
+
+
 <body>
-<h1 id="nagłówek"><strong>1A</strong> - rozszerzone treści nauczania<strong><em>   j. polskiego, historii i wiedzy o społeczeństwie </em></strong></h1>
-<div id="tekst">
-<h2 id="x"><strong>Powinieneś wybrać klasę <u>humanistyczną,</u> jeśli: </strong> </br></h2>
-<ul id="y">
-<li>	chcesz rozwijać zainteresowania naukami humanistycznymi;</br></li>
-<li>marzysz o podjęciu studiów humanistycznych lub społecznych (prawo, filologia polska,
-filozofia, dziennikarstwo, kulturoznawstwo, stosunki międzynarodowe, europeistyka)
-na takich uczelniach jak: Uniwersytet Jagielloński, Uniwersytet Warszawski, Uniwersytet
-Rzeszowski, Uniwersytet Adama Mickiewicza w Poznaniu;</br></li>
-<li>chcesz zmierzyć się z najlepszymi w Olimpiadzie Historycznej, Olimpiadzie Literatury
-i Języka Polskiego, Olimpiadzie „Losy Żołnierza i Dzieje Oręża Polskiego”;</br></li>
-<li>interesują cię lekcje muzealne w Muzeum Powstania Warszawskiego, w Muzeum
-Regionalnym w Stalowej Woli, w Międzynarodowym Centrum Edukacji o Auschwitz
-i Holokauście; </br></li>
-<li>zamierzasz przystąpić do egzaminu maturalnego z języka polskiego, historii, wiedzy
-o społeczeństwie na poziomie rozszerzonym </li>
-</ul>
-<h4 id="z"><u>Nabór odbywa się poza systemem elektronicznym.</u></h4>
-<h5 id="s">Samorządowe Liceum Ogólnokształcące im. Cypriana Kamila Norwida</br>
-37-450 Stalowa Wola</br>
-ul. Wojska Polskiego 9</br>
-tel. 15 844 87 16 lub tel./fax 15 842 18 89</br>
-zsonr2sw@tg.onet.pl - sekretariat</br>
-topinfo@slosw.pl - obsługa treści</br>
-toptech@slosw.pl - obsługa techniczna</h5>
-</div>
-</body>
-</html>
+
+  <h2>Zagadki logiczne:<h2>
+  <p>
+  Parys miał w koszu 3 jabłka, które rozdał 3 boginiom tak, że każda z nich dostała jedno jabłko, ale jedno jabłko zostało w koszyku. Jak to możliwe?
+  </p>
+  <input type="button" value="zobacz odpowiedz" onclick="z1()">
+ </br> </br>
+ <div id = "z1">Tu znajdziesz odpowiedz</div>
+ </br>
+ </br>
+  <input type="button" value="ukryj odpowiedz" onclick="z2()">
+  
+  <p>
+  Zawsze przyjdzie, ale nigdy nie przyjdzie dzisiaj. Co to takiego?
+  </p>
+  <input type="button" value="zobacz odpowiedz" onclick="z3()">
+ </br> </br>
+ <div id = "z3">Tu znajdziesz odpowiedz</div>
+ </br>
+ </br>
+  <input type="button" value="ukryj odpowiedz" onclick="z4()">
+  
+  <p>
+  Szły gęsi gęsiego – jedna za drugą. Ile było gęsi?
+  </p>
+  <input type="button" value="zobacz odpowiedz" onclick="z5()">
+ </br> </br>
+ <div id = "z5">Tu znajdziesz odpowiedz</div>
+ </br>
+ </br>
+  <input type="button" value="ukryj odpowiedz" onclick="z6()">
+  
+  <p>
+
+Jeśli troje dzieci i ich trzy psy nie znajdowało się pod parasolem, to jak to się stało, że żadne z nich nie zmokło?
+  </p>
+  <input type="button" value="zobacz odpowiedz" onclick="z7()">
+ </br> </br>
+ <div id = "z7">Tu znajdziesz odpowiedz</div>
+ </br>
+ </br>
+  <input type="button" value="ukryj odpowiedz" onclick="z8()">
+  
+  <p>
+   Gdzie czwartek  jest przed środą?
+  </p>
+  <input type="button" value="zobacz odpowiedz" onclick="z9()">
+ </br> </br>
+ <div id = "z9">Tu znajdziesz odpowiedz</div>
+ </br>
+ </br>
+  <input type="button" value="ukryj odpowiedz" onclick="z10()">
